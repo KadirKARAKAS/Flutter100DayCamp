@@ -1,5 +1,3 @@
-import 'dart:async';
-
 void main() {
   //Örnek 1
 
