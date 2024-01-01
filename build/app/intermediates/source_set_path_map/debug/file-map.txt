@@ -1,0 +1,12 @@
+com.example.fluttercamp100days.app-jetified-window-1.0.0-beta04-0 /Users/macbook/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/res
+com.example.fluttercamp100days.app-jetified-annotation-experimental-1.1.0-1 /Users/macbook/.gradle/caches/transforms-3/6c0c163cc77ae6c91f9f7dfcd179c29c/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.fluttercamp100days.app-core-1.6.0-2 /Users/macbook/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res
+com.example.fluttercamp100days.app-jetified-window-java-1.0.0-beta04-3 /Users/macbook/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.fluttercamp100days.app-debug-4 /Users/macbook/Documents/GitHub/Flutter100DayCamp/android/app/src/debug/res
+com.example.fluttercamp100days.app-main-5 /Users/macbook/Documents/GitHub/Flutter100DayCamp/android/app/src/main/res
+com.example.fluttercamp100days.app-pngs-6 /Users/macbook/Documents/GitHub/Flutter100DayCamp/build/app/generated/res/pngs/debug
+com.example.fluttercamp100days.app-resValues-7 /Users/macbook/Documents/GitHub/Flutter100DayCamp/build/app/generated/res/resValues/debug
+com.example.fluttercamp100days.app-rs-8 /Users/macbook/Documents/GitHub/Flutter100DayCamp/build/app/generated/res/rs/debug
+com.example.fluttercamp100days.app-mergeDebugResources-9 /Users/macbook/Documents/GitHub/Flutter100DayCamp/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.fluttercamp100days.app-mergeDebugResources-10 /Users/macbook/Documents/GitHub/Flutter100DayCamp/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.fluttercamp100days.app-merged_res-11 /Users/macbook/Documents/GitHub/Flutter100DayCamp/build/app/intermediates/merged_res/debug
