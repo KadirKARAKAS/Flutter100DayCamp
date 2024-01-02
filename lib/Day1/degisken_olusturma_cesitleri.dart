@@ -1,9 +1,6 @@
 void main() {
   //Örnek 1
 
-  int sayi1 = 23;
-  int sayi2 = 44;
-
   //Örnnek 2
 
   double fiyat = 34.99;
