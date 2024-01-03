@@ -6,5 +6,11 @@ void main() {
   ford.hiz = 200;
   ford.calisiyorMu = true;
 
-  print(ford.renk);
+  ford.calistir();
+  print("------------------");
+  ford.bilgiAl();
+  print("------------------");
+  ford.durdur();
+  print("------------------");
+  ford.bilgiAl();
 }

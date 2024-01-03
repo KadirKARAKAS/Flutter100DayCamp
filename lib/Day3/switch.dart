@@ -1,5 +1,4 @@
 void main() {
-  int gun = 5;
   String gunn = "Saali";
 
   switch (gunn) {
