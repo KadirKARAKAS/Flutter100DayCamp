@@ -5,7 +5,7 @@ void main(){
 
   try{
     sayilar[1] = 55;
-    print("İşlem tamam"); 
+    print("İşlem tamam");
   }catch(e){
     print("Hatalı index girdiniz.");
   }
