@@ -15,29 +15,37 @@ class _OrnekHomePageState extends State<OrnekHomePage> {
       appBar: AppBar(
         title: const Text("100 DAY OF FLUTTER"),
       ),
-      body: customContainer("Row"),
+      body: Column(
+        children: [
+          customContainer("Row"),
+        ],
+      ),
     );
   }
 
   Widget customContainer(String yazi) {
-    return InkWell(
-      onTap: () {
-        Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => const RowColumnStack(),
-            ));
-      },
-      child: Container(
-        width: 200,
-        height: 50,
-        color: Colors.red,
-        child: Align(
-            alignment: Alignment.center,
-            child: Text(
-              yazi,
-              style: const TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
-            )),
+    return Align(
+      alignment: AlignmentDirectional.topCenter,
+      child: InkWell(
+        onTap: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const RowColumnStack(),
+              ));
+        },
+        child: Container(
+          width: 200,
+          height: 50,
+          color: Colors.red,
+          child: Align(
+              alignment: Alignment.center,
+              child: Text(
+                yazi,
+                style:
+                    const TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
+              )),
+        ),
       ),
     );
   }
