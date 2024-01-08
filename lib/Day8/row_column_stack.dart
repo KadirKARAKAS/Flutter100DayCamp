@@ -18,8 +18,9 @@ class _RowColumnStackState extends State<RowColumnStack> {
         child: Column(
           children: [
             rowWidget(),
-            columnWidget(),
-            stack(),
+            Stack(
+              children: [columnWidget(), stack()],
+            ),
           ],
         ),
       ),
@@ -97,24 +98,27 @@ class _RowColumnStackState extends State<RowColumnStack> {
   }
 
   Widget stack() {
-    return Stack(
-      children: [
-        Container(
-          width: 200,
-          height: 200,
-          color: Colors.red,
-        ),
-        Container(
-          width: 150,
-          height: 150,
-          color: Colors.black,
-        ),
-        Container(
-          width: 100,
-          height: 100,
-          color: Colors.yellow,
-        ),
-      ],
+    return Align(
+      alignment: Alignment.centerRight,
+      child: Stack(
+        children: [
+          Container(
+            width: 200,
+            height: 200,
+            color: Colors.red,
+          ),
+          Container(
+            width: 150,
+            height: 150,
+            color: Colors.black,
+          ),
+          Container(
+            width: 100,
+            height: 100,
+            color: Colors.yellow,
+          ),
+        ],
+      ),
     );
   }
 }

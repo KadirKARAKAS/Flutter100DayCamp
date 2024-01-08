@@ -13,7 +13,7 @@ class _OrnekHomePageState extends State<OrnekHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("100 DAY OF FLUTTER"),
+        title: Text("100 DAY OF FLUTTER"),
       ),
       body: Column(
         children: [
