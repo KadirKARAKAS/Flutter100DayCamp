@@ -14,6 +14,28 @@ class _IlhamUygulamaState extends State<IlhamUygulama> {
       appBar: AppBar(
         title: const Text("İlham ver"),
       ),
+      body: Column(
+        children: [
+          const SizedBox(height: 20),
+          Align(
+            alignment: Alignment.center,
+            child: Container(
+              width: 200,
+              height: 200,
+              decoration: const BoxDecoration(
+                shape: BoxShape.circle,
+                color: Colors.red,
+              ),
+              child: const ClipOval(
+                child: Image(
+                  image: AssetImage("resimler/a.jpeg"),
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+          )
+        ],
+      ),
     );
   }
 }
