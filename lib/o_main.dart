@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fluttercamp100days/Day10/ilham_uygulama.dart';
+import 'package:fluttercamp100days/Day10/login_page.dart';
 import 'package:fluttercamp100days/Day8/row_column_stack.dart';
 import 'package:fluttercamp100days/Day9/expand.dart';
 
@@ -24,6 +25,8 @@ class _OrnekHomePageState extends State<OrnekHomePage> {
           customContainer2("Expand"),
           SizedBox(height: 20),
           customContainer3("İlham Uygulaması"),
+          SizedBox(height: 20),
+          customContainer4("Login Page"),
         ],
       ),
     );
@@ -92,6 +95,33 @@ class _OrnekHomePageState extends State<OrnekHomePage> {
               context,
               MaterialPageRoute(
                 builder: (context) => IlhamUygulama(),
+              ));
+        },
+        child: Container(
+          width: 200,
+          height: 50,
+          color: Colors.red,
+          child: Align(
+              alignment: Alignment.center,
+              child: Text(
+                yazi,
+                style:
+                    const TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
+              )),
+        ),
+      ),
+    );
+  }
+
+  Widget customContainer4(String yazi) {
+    return Align(
+      alignment: AlignmentDirectional.topCenter,
+      child: InkWell(
+        onTap: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => LoginPage(),
               ));
         },
         child: Container(
