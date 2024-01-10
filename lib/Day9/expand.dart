@@ -45,9 +45,10 @@ class _ExpandDenemeState extends State<ExpandDeneme> {
                   height: 100,
                   color: Colors.green,
                 ),
-              )
+              ),
             ],
           ),
+          Image.asset("resimler/a.jpeg")
         ],
       ),
     );

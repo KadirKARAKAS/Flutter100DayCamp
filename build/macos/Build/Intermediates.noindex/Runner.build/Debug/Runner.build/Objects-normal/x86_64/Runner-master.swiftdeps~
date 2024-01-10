@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
-options: "d67ed89f6b391ab0e4d4033554046e2e475b7b1c619916cf76f03497a1658123"
-build_start_time: [1704115191, 25000000]
-build_end_time: [1704115191, 134905000]
-inputs:
-  "/Users/macbook/Documents/GitHub/Flutter100DayCamp/macos/Flutter/GeneratedPluginRegistrant.swift": !private [1704115164, 304826250]
-  "/Users/macbook/Documents/GitHub/Flutter100DayCamp/macos/Runner/AppDelegate.swift": !private [1689202922, 0]
-  "/Users/macbook/Documents/GitHub/Flutter100DayCamp/macos/Runner/MainFlutterWindow.swift": !private [1689202922, 0]
