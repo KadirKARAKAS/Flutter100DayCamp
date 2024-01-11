@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluttercamp100days/utilts.dart';
 
 class SetStateDeneme extends StatefulWidget {
   const SetStateDeneme({super.key});
@@ -21,14 +22,14 @@ class _SetStateDenemeState extends State<SetStateDeneme> {
           Align(
             alignment: Alignment.center,
             child: Text(
-              deneme.toString(),
+              sayac.toString(),
               style: TextStyle(fontSize: 55),
             ),
           ),
           InkWell(
               onTap: () {
                 setState(() {
-                  deneme++;
+                  sayac++;
                 });
               },
               child: Container(
