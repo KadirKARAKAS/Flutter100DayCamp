@@ -8,6 +8,8 @@ class PageA extends StatefulWidget {
 }
 
 class _PageAState extends State<PageA> {
+  int yas = 0;
+  String isim = "Kadir";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
