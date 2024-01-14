@@ -8,7 +8,7 @@ class Viaiable extends StatefulWidget {
 }
 
 class _ViaiableState extends State<Viaiable> {
-  bool gorunurluk = true;
+  bool gorunurluk = false;
 
   @override
   Widget build(BuildContext context) {
@@ -18,16 +18,24 @@ class _ViaiableState extends State<Viaiable> {
       ),
       body: Column(
         children: [
-          Text("Merhaba"),
+          Visibility(visible: gorunurluk, child: Text("Merhaba")),
           InkWell(
-              onTap: () {},
+              onTap: () {
+                setState(() {
+                  gorunurluk = true;
+                });
+              },
               child: Container(
                 width: 50,
                 height: 100,
                 color: Colors.red,
               )),
           InkWell(
-              onTap: () {},
+              onTap: () {
+                setState(() {
+                  gorunurluk = false;
+                });
+              },
               child: Container(
                 width: 50,
                 height: 100,
