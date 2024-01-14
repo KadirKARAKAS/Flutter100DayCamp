@@ -10,6 +10,14 @@ class Viaiable extends StatefulWidget {
 class _ViaiableState extends State<Viaiable> {
   bool gorunurluk = false;
 
+  Future<int> faktoriyelHesapla(int sayi) async {
+    int sonuc = 1;
+    for (var i = 1; i <= sayi; i++) {
+      sonuc *= i;
+    }
+    return sonuc;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,6 +49,20 @@ class _ViaiableState extends State<Viaiable> {
                 height: 100,
                 color: Colors.blue,
               )),
+          FutureBuilder<int>(
+            future: faktoriyelHesapla(5),
+            builder: (context, snapshot) {
+              if (snapshot.hasError) {
+                print("Hata sonucu : ${snapshot.error}");
+              }
+
+              if (snapshot.hasData) {
+                return Text("Souç : ${snapshot.data}");
+              } else {
+                return Text("Sonuç yok");
+              }
+            },
+          ),
         ],
       ),
     );
