@@ -3,6 +3,7 @@ import 'package:fluttercamp100days/Day10/ilham_uygulama.dart';
 import 'package:fluttercamp100days/Day10/login_page.dart';
 import 'package:fluttercamp100days/Day11/setstate_deneme.dart';
 import 'package:fluttercamp100days/Day12/page_a.dart';
+import 'package:fluttercamp100days/Day14/visiable.dart';
 import 'package:fluttercamp100days/Day8/row_column_stack.dart';
 import 'package:fluttercamp100days/Day9/expand.dart';
 
@@ -33,6 +34,8 @@ class _OrnekHomePageState extends State<OrnekHomePage> {
           customContainer5("SetState"),
           SizedBox(height: 20),
           customContainer6("Page A"),
+          SizedBox(height: 20),
+          customContainer7("Visiable"),
         ],
       ),
     );
@@ -182,6 +185,33 @@ class _OrnekHomePageState extends State<OrnekHomePage> {
               context,
               MaterialPageRoute(
                 builder: (context) => PageA(),
+              ));
+        },
+        child: Container(
+          width: 200,
+          height: 50,
+          color: Colors.red,
+          child: Align(
+              alignment: Alignment.center,
+              child: Text(
+                yazi,
+                style:
+                    const TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
+              )),
+        ),
+      ),
+    );
+  }
+
+  Widget customContainer7(String yazi) {
+    return Align(
+      alignment: AlignmentDirectional.topCenter,
+      child: InkWell(
+        onTap: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => Viaiable(),
               ));
         },
         child: Container(
